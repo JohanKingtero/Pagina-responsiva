@@ -1,0 +1,307 @@
+<!-- Los comentarios a lo largo del codigo son muy importantes nos ayudan  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>FEID</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons --> 
+
+
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>FEID </b></h1>
+    <h6>Bienvenidos a <span class="w3-tag">FEID NEW</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="feid_maluma.jpg" alt="Cantante" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">F</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>¿Quien es Feid?</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">INCRESAR</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Dios en las calles</h3>
+          <h5>El verdadero referente del genero
+              <span class="w3-opacity">FERXOXO</span>
+          </h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="feid_principal.jpg" alt="Music" style="width:100%" class="w3-padding-16">
+          <p><strong> Feid el cantante mas pegado del momento</strong> Feid (19 de agosto de 1992) cantante. Nació en Medellín, Colombia. Su madre es Berta Lucía Hoyos, maestra de preescolar y psicóloga, y su padre Jorge Mario Villada, se desempeña como docente universitario de artes.Feid nació bajo el nombre de Salomón Villada Hoyos. Sus inicios en la música comenzaron luego de asistir a los Cursos de Extensión Musical que ofrece la Universidad de Antioquia.
+
+            Desde su infancia sintió gusto por la interpretación de instrumentos musicales, tales como el clarinete, aunque luego se inclinó por el canto. Al ingresar a la universidad, tomó clases de canto e hizo parte del coro de la universidad. Finalmente, se decidió por el género urbano. Comenzó interviniendo en fiestas universitarias, fiestas de cumpleaños y reuniones. Durante su corta trayectoria ha caminado por los géneros del hip hop y el R & B. Sus mayores influencias son Drake y Chris Brown.
+
+            Su trabajo ha sido reconocido por artistas locales como J Balvin y Sebastian Yatra. También sirvió como colaborador en el tema de J Balvin titulada Ginza.Su canción más popular, 911 (Ft. Nacho) ha llegado a más de 20 millones de visitas en YouTube. También ayudó a componer la canción de “Mamita” de los chicos de CNCO Canción. Lanzó dos álbumes físicos y digitales: Así Como Suena (2017) bajo la firma del sello discográfico: Universal Music, y 19 (2019) con el mismo sello.
+
+            Entre sus grandes logros se puede destacar Vevo, la plataforma, lo eligió como el único artista latino en su lista de artistas para ver en el año 2018.  Desde sus letras y su forma de hacer reggaetón pretende eliminar el estigma que se tiene a este género y dotarlo de mayor seriedad entre sus mismos colegas.
+            
+            Conforme avanza la historia, Odín envía a diferentes dioses para poder asesinar a Loki y al fin deshacerse de él, con lo cual le causa varias desventuras y problemas al Dios desterrado en su lucha por volver a Asgard..</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="feid_maluma.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Freya <span class="w3-opacity w3-medium">May 3, 2006, 6:32 PM</span></h4>
+                <p>CHORRITO PA' LAS ANIMAS </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>trayectoria Musical</h3>
+          <h5>YANDEL 150, <span class="w3-opacity">SsSsS</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="monastery.jpg" alt="Ryan Castro" style="width:100%" class="w3-padding-16">
+          <p><strong>FERXOXO</strong> MOR...</p>
+          <p>Constantemente estoy en el estudio buscando flow e ideas y pensando que puede ser lo próximo. Sky me mostró el beat para Nieve y me encantó. Siempre he querido tener una canción como esa en mi repertorio aunque siempre estuvo el pro y el contra de bajarle el pitch a mi voz porque a lo mejor la gente no la iba a reconocer… pero al final creo que en el reggaetón y en estos géneros vale todo y a mí siempre me ha gustado experimentar… esta no será ni la primera ni la ultima canción diferente que vaya a hacer.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="normal.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Normal <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+                <p>Busco mi propio exito.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="monastery.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Ferxoxo <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+                <p>Hay niveles de niveles.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="situsupieras.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Frey <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+                <p>Si tu supieras todas las veces que he querido escribirte y no he podido</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="feid_principal.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>Feid</h4>
+          <p>De Colombia para el mundo</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Post musica</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="monastery.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Pero hay niveles de niveles</span>
+            <br>
+            <span>Aunque a las otras les duele </span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="normal.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Normal feid</span>
+            <br>
+            <span>Normal, si te sientes solita y me extrañas</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="situsupieras.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Feid</span>
+            <br>
+            <span>Si tu supieras todas las veces que he querido olvidarte y no he podido</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="feid_maluma.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Maluma</span>
+            <br>
+            <span>Duelo de titanes del genero</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+     
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Categorias</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Music</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Loki</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tokio</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Blessed</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Midgard</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Odin</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ryan Castro</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ragnarok</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Regresar</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Bad Bunny</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Paranormal</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Dizfras</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tendencias</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Muñecas que hablan</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Musicologia</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="img/MLR_Ecchan.webp" alt="Jeans" style="width:100%"></p>
+            <p><img src="img/MLR_Hela.webp" alt="Jeans" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="img/MLR_Misao_Daidouji.webp" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="img/MLR_Narugami.webp" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
